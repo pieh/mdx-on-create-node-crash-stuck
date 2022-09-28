@@ -1,0 +1,26 @@
+{
+  "name": "mdx-dsg",
+  "version": "1.0.0",
+  "private": true,
+  "description": "mdx-dsg",
+  "author": "Ben Robertson",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@mdx-js/mdx": "^2.1.3",
+    "@mdx-js/react": "^2.1.3",
+    "gatsby": "^4.24.0",
+    "gatsby-plugin-mdx": "^4.3.0",
+    "gatsby-source-filesystem": "^4.24.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  }
+}
