@@ -31,7 +31,7 @@ exports.createPages = async ({ graphql, actions }) => {
         id: node.id,
         slug: node.frontmatter.slug,
       },
-      defer: false
+      defer: true
     })
   })
 }
